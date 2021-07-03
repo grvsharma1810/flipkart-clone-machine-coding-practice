@@ -145,6 +145,7 @@ function Sidebar() {
           );
         })}
       </Box>
+      <br />
       <Button
         onClick={() => {
           productsDispatch({

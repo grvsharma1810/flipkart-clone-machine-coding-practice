@@ -6,7 +6,7 @@ import Products from './Products';
 function ProductListingPage() {
   return (
     <Grid h="200px" templateColumns="2fr 6fr" gap={4}>
-      <GridItem m={2}>
+      <GridItem m={4}>
         <Sidebar />
       </GridItem>
       <GridItem m={2}>
