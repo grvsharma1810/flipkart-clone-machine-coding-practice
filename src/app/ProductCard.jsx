@@ -33,7 +33,7 @@ function ProductCard({ product }) {
           {product.name}
         </Box>
 
-        <Box>{product.price}</Box>
+        <Box>Rs. {product.price}</Box>
 
         <Box d="flex" mt="2" alignItems="center">
           Size : &nbsp;
